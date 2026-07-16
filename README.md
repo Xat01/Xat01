@@ -1,204 +1,261 @@
+# <div align="center">
 
-════════════════════════════════════════════════════════════
+# 👋 Hi, I'm **Srivatsa Avunoori**
 
-                 S R I V A T S A   A V U N O O R I
+### Computer Science @ University of Wollongong in Dubai
 
-        Cybersecurity • Software Engineer • Network Security
+### Cybersecurity • Software Engineering • Enterprise Networking
 
-     Python • C++ • Enterprise Networking • SOC Engineering
+*Designing, building and documenting secure systems through code, networking and continuous learning.*
 
-════════════════════════════════════════════════════════════
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin)](YOUR_LINKEDIN)
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge\&logo=github)](YOUR_PORTFOLIO)
 
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail)](mailto:YOUR_EMAIL)
 
-
-
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> Hello, I'm Srivatsa Avunoori
-
-<p align="center">
-
-Computer Science Student • Cybersecurity Enthusiast • Network Engineer
-
-Building secure systems through code, networking and continuous learning.
-
-</p>
+</div>
 
 ---
 
-## 🚀 About Me
+# 💡 Mission
 
-I'm a Computer Science student at the **University of Wollongong in Dubai** with a strong interest in Cybersecurity, Network Engineering and Software Development.
+I enjoy building software and infrastructure that help understand, monitor and secure modern systems.
 
-I enjoy understanding how systems work, how they break, and how they can be secured.
+My interests span:
 
-My goal is to become a cybersecurity engineer capable of designing secure infrastructure, developing defensive tools, and understanding offensive techniques from a defender's perspective.
+* 🛡️ Cybersecurity
+* 🌐 Enterprise Networking
+* 🐍 Python Development
+* ⚙️ Modern C++
+* ☁️ Cloud Security
+* 🔍 Detection Engineering
 
----
-
-## 🎯 Current Focus
-
-- 🛡️ Cybersecurity
-- 🌐 Enterprise Networking
-- 🐍 Python Development
-- ⚙️ Modern C++
-- ☁️ Cloud Security
-- 🔍 Detection Engineering
-- 📊 SOC Operations
+Rather than only studying security, I prefer learning by building real projects, documenting my process and continuously improving them.
 
 ---
 
-## 💻 Technologies
+# 🎯 Current Focus
 
-### Languages
+```text
+✓ Security Tool Development
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
+✓ Enterprise Networking
 
----
+✓ Detection Engineering
 
-### Cybersecurity
+✓ Python Automation
 
-- Kali Linux
-- Wireshark
-- Burp Suite
-- Nmap
-- Metasploitable
-- DVWA
-- VirtualBox
+✓ Modern C++
+
+✓ Linux
+
+✓ Cloud Fundamentals
+```
 
 ---
 
-### Networking
+# 🧠 Engineering Principles
 
-- Cisco Packet Tracer
-- VLANs
-- HSRP
-- STP
-- Inter-VLAN Routing
-- OSPF
-- ACLs
-- ASA Firewall
-- NAT
-- VLSM
+* Security by Design
+* Automation over Repetition
+* Readability over Cleverness
+* Documentation is Part of the Product
+* Learn by Building
+* Continuous Improvement
 
 ---
 
-### Development
+# 🚀 Featured Projects
 
-- Git
-- GitHub
-- Visual Studio
-- VS Code
-- Node.js
-- MySQL
+## 🛡️ PulseSOC
 
----
+Python-based modular security scanner.
 
-## 📂 Featured Projects
+### Highlights
 
-### 🛡️ PulseSOC
-
-An asynchronous Python-based security scanner focused on network visibility.
-
-Features
-
-- Async Port Scanning
-- Banner Grabbing
-- JSON Reporting
-- Alert Generation
-- Service Identification
-- Modular Architecture
+* Async Port Scanning
+* Banner Grabbing
+* JSON Reporting
+* Alert Generation
+* Modular Architecture
+* Service Detection
 
 ---
 
-### 🌐 Airport Enterprise Network
+## 🌐 Airport Enterprise Network
 
-Designed an enterprise-scale airport network using Cisco Packet Tracer.
+Enterprise Airport Infrastructure designed using Cisco technologies.
 
-Features
+### Features
 
-- VLAN Segmentation
-- Layer-3 Switching
-- HSRP Redundancy
-- ASA Firewall
-- DMZ
-- Enterprise Routing
-- Network Security Policies
-
----
-
-### 🌍 Roamify
-
-Modern travel booking website.
-
-Features
-
-- Dynamic Package Loading
-- JSON Integration
-- Booking Workflow
-- Responsive Design
-- Interactive UI
+* VLAN Segmentation
+* Layer 3 Switching
+* HSRP
+* STP
+* DMZ
+* ASA Firewall
+* NAT
+* ACLs
+* Redundancy
+* Enterprise Routing
 
 ---
 
-### ⚙️ C++ Projects
+## 🌍 Roamify
 
-Collection of modern C++ projects covering
+Responsive travel booking web application.
 
-- STL
-- Templates
-- Smart Pointers
-- OOP
-- RAII
-- Exception Handling
+### Features
 
----
-
-## 📚 Currently Learning
-
-- Active Directory
-- Detection Engineering
-- SIEM
-- Splunk
-- Microsoft Sentinel
-- Docker
-- Cloud Security
-- Threat Hunting
+* Dynamic JSON Loading
+* Booking Workflow
+* Responsive UI
+* Client-side Validation
+* Modern Interface
 
 ---
 
-## 🏆 Certifications
+## ⚙️ Modern C++
 
-- ISC2 Certified in Cybersecurity (In Progress)
-- Cisco Junior Cybersecurity Analyst Career Path
+Collection of projects covering
 
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Xat01&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xat01&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
+* STL
+* Templates
+* Smart Pointers
+* RAII
+* Exception Handling
+* OOP
+* Lambdas
+* Modern C++ Practices
 
 ---
 
-## 📫 Connect
+# 🛠 Tech Stack
 
-GitHub
+## Languages
 
-https://github.com/Xat01
-
-LinkedIn
-
-https://linkedin.com/in/srivatsa-avunoori-b6a605353/
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=flat-square\&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML-E34F26?style=flat-square\&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS-1572B6?style=flat-square\&logo=css3)
 
 ---
 
-> *"Stay curious. Build consistently. Security is a journey, not a destination."*
+## Cybersecurity
+
+* Kali Linux
+* Wireshark
+* Burp Suite
+* Nmap
+* VirtualBox
+* DVWA
+* Metasploitable
+
+---
+
+## Networking
+
+* Cisco Packet Tracer
+* VLAN
+* HSRP
+* OSPF
+* STP
+* NAT
+* ACL
+* VLSM
+* ASA Firewall
+
+---
+
+## Development
+
+* Git
+* GitHub
+* VS Code
+* Visual Studio
+* Node.js
+* MySQL
+
+---
+
+# 📈 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Xat01&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xat01&layout=compact&theme=github_dark&hide_border=true"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Xat01&theme=github-dark&hide_border=true"/>
+
+</div>
+
+---
+
+# 📊 Development Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Xat01&theme=github-dark"/>
+
+---
+
+# 🧩 Skills Matrix
+
+| Area                  | Level      |
+| --------------------- | ---------- |
+| Python                | ████████░░ |
+| Modern C++            | ███████░░░ |
+| Networking            | █████████░ |
+| Linux                 | ███████░░░ |
+| Web Development       | ██████░░░░ |
+| Detection Engineering | █████░░░░░ |
+| Cloud                 | ███░░░░░░░ |
+
+---
+
+# 🗺 Learning Roadmap
+
+* [x] Enterprise Networking
+* [x] Modern C++
+* [x] Python
+* [x] Web Development
+* [ ] Docker
+* [ ] Active Directory
+* [ ] Splunk
+* [ ] Microsoft Sentinel
+* [ ] Threat Hunting
+* [ ] Cloud Security
+* [ ] Kubernetes
+
+---
+
+# 📚 Current Goals
+
+* Build practical cybersecurity tools
+* Contribute to open-source projects
+* Publish technical write-ups
+* Improve detection engineering skills
+* Learn cloud-native security
+
+---
+
+# 🤝 Let's Connect
+
+* LinkedIn: YOUR_LINKEDIN
+* GitHub: https://github.com/Xat01
+* Email: YOUR_EMAIL
+
+---
+
+<div align="center">
+
+*"Build consistently. Document everything. Stay curious."*
+
+</div>
