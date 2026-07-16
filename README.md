@@ -1,261 +1,171 @@
-# <div align="center">
+```md
+<h1 align="center">Hi 👋, I'm Srivatsa Avunoori</h1>
 
-# 👋 Hi, I'm **Srivatsa Avunoori**
+<h3 align="center">
+Computer Science Student • Cybersecurity • Software Engineering • Enterprise Networking
+</h3>
 
-### Computer Science @ University of Wollongong in Dubai
-
-### Cybersecurity • Software Engineering • Enterprise Networking
-
-*Designing, building and documenting secure systems through code, networking and continuous learning.*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin)](YOUR_LINKEDIN)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge\&logo=github)](YOUR_PORTFOLIO)
-
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail)](mailto:YOUR_EMAIL)
-
-</div>
+<p align="center">
+I build software, networking, and cybersecurity projects that focus on understanding, monitoring, and securing modern systems.
+</p>
 
 ---
 
-# 💡 Mission
+## 🚀 About Me
 
-I enjoy building software and infrastructure that help understand, monitor and secure modern systems.
-
-My interests span:
-
-* 🛡️ Cybersecurity
-* 🌐 Enterprise Networking
-* 🐍 Python Development
-* ⚙️ Modern C++
-* ☁️ Cloud Security
-* 🔍 Detection Engineering
-
-Rather than only studying security, I prefer learning by building real projects, documenting my process and continuously improving them.
+- 🎓 Bachelor of Computer Science (Cybersecurity) — University of Wollongong in Dubai
+- 🛡️ Interested in Security Engineering, Blue Teaming, and Network Security
+- 🐍 Building security-focused tools with Python
+- ⚙️ Learning Modern C++, Linux, and Cloud Technologies
+- 🌱 Currently exploring Detection Engineering, Docker, and Active Directory
 
 ---
 
-# 🎯 Current Focus
+## 🛠️ Tech Stack
 
-```text
-✓ Security Tool Development
+### Programming Languages
 
-✓ Enterprise Networking
+<p align="center">
 
-✓ Detection Engineering
+![Python](https://skillicons.dev/icons?i=py)
+![C++](https://skillicons.dev/icons?i=cpp)
+![JavaScript](https://skillicons.dev/icons?i=js)
+![HTML](https://skillicons.dev/icons?i=html)
+![CSS](https://skillicons.dev/icons?i=css)
 
-✓ Python Automation
+</p>
 
-✓ Modern C++
+### Cybersecurity & Networking
 
-✓ Linux
+<p align="center">
 
-✓ Cloud Fundamentals
-```
+![Linux](https://skillicons.dev/icons?i=linux)
+![Git](https://skillicons.dev/icons?i=git)
+![GitHub](https://skillicons.dev/icons?i=github)
 
----
-
-# 🧠 Engineering Principles
-
-* Security by Design
-* Automation over Repetition
-* Readability over Cleverness
-* Documentation is Part of the Product
-* Learn by Building
-* Continuous Improvement
+</p>
 
 ---
 
-# 🚀 Featured Projects
+## 📌 Featured Projects
 
-## 🛡️ PulseSOC
+### 🛡️ PulseSOC
 
-Python-based modular security scanner.
+An asynchronous Python-based security scanner focused on network visibility.
 
-### Highlights
+**Highlights**
 
-* Async Port Scanning
-* Banner Grabbing
-* JSON Reporting
-* Alert Generation
-* Modular Architecture
-* Service Detection
-
----
-
-## 🌐 Airport Enterprise Network
-
-Enterprise Airport Infrastructure designed using Cisco technologies.
-
-### Features
-
-* VLAN Segmentation
-* Layer 3 Switching
-* HSRP
-* STP
-* DMZ
-* ASA Firewall
-* NAT
-* ACLs
-* Redundancy
-* Enterprise Routing
+- Async TCP Port Scanning
+- Banner Grabbing
+- JSON Reporting
+- Modular Architecture
+- Service Identification
 
 ---
 
-## 🌍 Roamify
+### 🌐 Enterprise Airport Network
 
-Responsive travel booking web application.
+Enterprise-scale Cisco Packet Tracer infrastructure.
 
-### Features
+**Features**
 
-* Dynamic JSON Loading
-* Booking Workflow
-* Responsive UI
-* Client-side Validation
-* Modern Interface
-
----
-
-## ⚙️ Modern C++
-
-Collection of projects covering
-
-* STL
-* Templates
-* Smart Pointers
-* RAII
-* Exception Handling
-* OOP
-* Lambdas
-* Modern C++ Practices
+- VLAN Segmentation
+- HSRP Redundancy
+- Inter-VLAN Routing
+- ACLs
+- NAT
+- STP
+- ASA Firewall
+- DMZ Architecture
 
 ---
 
-# 🛠 Tech Stack
+### 🌍 Roamify
 
-## Languages
+Modern travel booking web application.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=flat-square\&logo=javascript)
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=flat-square\&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=flat-square\&logo=css3)
-
----
-
-## Cybersecurity
-
-* Kali Linux
-* Wireshark
-* Burp Suite
-* Nmap
-* VirtualBox
-* DVWA
-* Metasploitable
+- Responsive Design
+- Dynamic JSON Data
+- Interactive Booking Workflow
+- Modern UI
 
 ---
 
-## Networking
+## 📚 Currently Learning
 
-* Cisco Packet Tracer
-* VLAN
-* HSRP
-* OSPF
-* STP
-* NAT
-* ACL
-* VLSM
-* ASA Firewall
+- 🔐 Security Engineering
+- 🐳 Docker
+- ☁️ Cloud Security
+- 🧩 Active Directory
+- 📊 Detection Engineering
 
 ---
 
-## Development
+## 🎯 2026 Goals
 
-* Git
-* GitHub
-* VS Code
-* Visual Studio
-* Node.js
-* MySQL
+- [ ] Complete ISC2 Certified in Cybersecurity (CC)
+- [ ] Expand PulseSOC with monitoring capabilities
+- [ ] Contribute to Open Source
+- [ ] Publish technical write-ups
+- [ ] Learn AWS / Azure fundamentals
 
 ---
 
-# 📈 GitHub Analytics
+## 📈 GitHub Analytics
 
-<div align="center">
+<p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Xat01&show_icons=true&theme=github_dark&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Xat01&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117"/>
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xat01&layout=compact&theme=github_dark&hide_border=true"/>
 
-</div>
+</p>
 
----
-
-<div align="center">
+<p align="center">
 
 <img src="https://streak-stats.demolab.com?user=Xat01&theme=github-dark&hide_border=true"/>
 
-</div>
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Xat01&theme=github-dark&hide_border=true"/>
+
+</p>
 
 ---
 
-# 📊 Development Activity
+## 🏆 Certifications
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Xat01&theme=github-dark"/>
-
----
-
-# 🧩 Skills Matrix
-
-| Area                  | Level      |
-| --------------------- | ---------- |
-| Python                | ████████░░ |
-| Modern C++            | ███████░░░ |
-| Networking            | █████████░ |
-| Linux                 | ███████░░░ |
-| Web Development       | ██████░░░░ |
-| Detection Engineering | █████░░░░░ |
-| Cloud                 | ███░░░░░░░ |
+- ISC2 Certified in Cybersecurity (CC) *(In Progress)*
+- Cisco Junior Cybersecurity Analyst Career Path *(In Progress)*
+- Deloitte Cyber Job Simulation (Forage)
 
 ---
 
-# 🗺 Learning Roadmap
+## 🤝 Connect With Me
 
-* [x] Enterprise Networking
-* [x] Modern C++
-* [x] Python
-* [x] Web Development
-* [ ] Docker
-* [ ] Active Directory
-* [ ] Splunk
-* [ ] Microsoft Sentinel
-* [ ] Threat Hunting
-* [ ] Cloud Security
-* [ ] Kubernetes
+<p align="center">
 
----
+<a href="mailto:avunoori.srivatsa0123@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-# 📚 Current Goals
+<a href="https://www.linkedin.com/in/srivatsa-avunoori-b6a605353">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-* Build practical cybersecurity tools
-* Contribute to open-source projects
-* Publish technical write-ups
-* Improve detection engineering skills
-* Learn cloud-native security
+<a href="https://github.com/Xat01">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
 
 ---
 
-# 🤝 Let's Connect
+<p align="center">
 
-* LinkedIn: YOUR_LINKEDIN
-* GitHub: https://github.com/Xat01
-* Email: YOUR_EMAIL
+<i>"Build consistently. Document everything. Keep learning."</i>
 
----
-
-<div align="center">
-
-*"Build consistently. Document everything. Stay curious."*
-
-</div>
+</p>
+```
