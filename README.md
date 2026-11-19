@@ -495,3 +495,39 @@ timeline
 
 ---
 
+<!--
+  ╔═══════════════════════════════════════════════════════════════════════════════╗
+  ║  DEPLOYMENT CHECKLIST                                                    ║
+  ╚═══════════════════════════════════════════════════════════════════════════════╝
+  
+  1. CREATE REPO: github.com/Xat01/Xat01 (PUBLIC, must match username exactly)
+  2. COPY: hero_banner.svg → repo root
+  3. ENABLE: Settings → General → Features → "Mermaid diagram rendering" ✅
+  4. COPY: This file → README.md in that repo
+  5. PUSH: git add . && git commit -m "deploy: hooked profile v2026.01.15" && git push
+  6. VERIFY: Check github.com/Xat01 renders correctly
+  
+  OPTIONAL - SNAKE ANIMATION:
+  - Add .github/workflows/snake.yml (uses Platane/snk)
+  - Enable Pages → Deploy from branch → "output"
+  
+  COLOR PALETTE (GitHub Dark native):
+  - PRIMARY:   #00FF87 (Terminal Green) - OPERATIONAL/ALIVE
+  - ACCENT:    #FF6B35 (Orange/Red) - ENERGY/ACTION
+  - TECH:      #00D4AA (Cyan/Teal) - SYSTEMS/NETWORKING
+  - AI:        #8A2BE2 (Purple) - INTELLIGENCE/INNOVATION
+  - BG:        #0D1117 (GitHub Dark) - BACKGROUND
+  - CARD:      #161B22 (GitHub Dark Card) - PANELS
+  - BORDER:    #30363D (GitHub Border) - DIVIDERS
+  - TEXT:      #E6EDF3 (Primary) / #8B949E (Secondary)
+  
+  THIS PROFILE HOOKS BECAUSE:
+  ✅ Opens with a boot sequence (not a name)
+  ✅ Leads with "why this exists" (not "who I am")
+  ✅ Shows systems with verified metrics (not keyword lists)
+  ✅ Expandable deep-dives with real code + architecture + decisions
+  ✅ Live telemetry that updates automatically
+  ✅ Philosophy as C macros (not platitudes)
+  ✅ Every claim links to verifiable source
+  ✅ Voice: "Operations", "Missions", "Intel" — not "Projects", "About", "Contact"
+-->
