@@ -1,7 +1,7 @@
 <!--
   ╔═══════════════════════════════════════════════════════════════════════════════╗
-  ║  XAT01 — GITHUB PROFILE README (WITH HERO BANNER)                           ║
-  ║  Generated: 2026-01-15 | Variant: HOOKED+HERO | Target: github.com/Xat01/Xat01║
+  ║  XAT01 — GITHUB PROFILE README                                              ║
+  ║  Generated: 2026-01-15 | Target: github.com/Xat01/Xat01                      ║
   ╚═══════════════════════════════════════════════════════════════════════════════╝
 -->
 
@@ -30,25 +30,25 @@
 
 ---
 
-## 🎬 **THE HOOK — WHY THIS PROFILE EXISTS**
+## THE HOOK — WHY THIS PROFILE EXISTS
 
 > **Most GitHub profiles are resumes. This one is a runtime.**
 >
-> I don't list technologies — I show you systems I've built that *actually run in production*.
-> I don't claim skills — I link you to the code that proves them.
-> I don't want you to *read* this. I want you to *explore* it.
+> I do not list technologies — I show you systems that run in production.
+> I do not claim skills — I link you to the code that proves them.
+> I do not want you to read this. I want you to explore it.
 
-**Three things you'll find here that you won't find on 99% of profiles:**
+**Three things you will find here that you will not find on 99% of profiles:**
 
 | # | What It Is | Why It Matters |
 |---|------------|----------------|
-| **1** | **Production-grade systems** — MEMORA (AI memory infra), PulseSOC (async recon), Veyron (AppSec orchestrator) | These aren't tutorials. They solve real problems. |
-| **2** | **Engineering decisions, not buzzwords** — Why I chose SQLite over PostgreSQL. Why no WAL. Why hybrid BM25+vector. | Shows *how I think*, not what I know. |
+| **1** | **Production-grade systems** — MEMORA (AI memory infrastructure), PulseSOC (async reconnaissance), Veyron (AppSec orchestrator) | These are not tutorials. They solve real problems. |
+| **2** | **Engineering decisions, not buzzwords** — Why SQLite over PostgreSQL. Why no WAL. Why hybrid BM25+vector. | Shows how I think, not what I know. |
 | **3** | **Live telemetry** — Real test counts, latency numbers, throughput benchmarks | Verifiable. Reproducible. No fluff. |
 
 ---
 
-## ⚡ **SYSTEM SPECS — MACHINE READABLE**
+## SYSTEM SPECIFICATIONS — MACHINE READABLE
 
 ```yaml
 IDENTITY:
@@ -56,7 +56,7 @@ IDENTITY:
   name: "Srivatsa Avunoori"
   role: "Cybersecurity Engineer | AI Infrastructure Architect"
   clearance: "BUILDER | BREAKER | DEFENDER"
-  location: "Dubai, UAE 🇦🇪"
+  location: "Dubai, UAE"
   timezone: "GST (UTC+4)"
   uptime: "4 years, 237 days of shipping code"
 
@@ -78,24 +78,24 @@ STACK:
 
 ---
 
-## 🎯 **ACTIVE OPERATIONS — SYSTEMS THAT RUN**
+## ACTIVE OPERATIONS — SYSTEMS THAT RUN
 
 <div align="center">
 
-| OPERATION | CLASSIFICATION | STATUS | CORE TECH | WHY IT EXISTS |
-|-----------|----------------|--------|-----------|---------------|
-| [**MEMORA**](https://github.com/Xat01/MEMORA) | **AI INFRASTRUCTURE** | 🟢 **OPERATIONAL** | Python, MCP, ChromaDB, Ollama, SQLite, Docker | AI agents lose context between sessions. MEMORA gives them persistent, searchable memory. Hybrid BM25+vector retrieval. 165 tests passing. |
-| [**PULSESOC**](https://github.com/Xat01/PulseSOC) | **SECURITY AUTOMATION** | 🟢 **OPERATIONAL** | Python, Asyncio, TCP, eBPF, JSON | Need to scan 254 hosts × 1000 ports in < 4 seconds? Done. 79K ports/sec. SIEM-ready JSON. Modular probe architecture. |
-| [**VEYRON**](https://github.com/Xat01/VEYRON) | **APPSEC PLATFORM** | 🟡 **IN DEVELOPMENT** | Python, FastAPI, React, Docker, Ollama, LangGraph | AppSec tools are fragmented. Veyron orchestrates SAST/DAST/IAST/SCA → AI triage → unified reports. Local-first, zero-cost. |
-| [**AEGISVAULT**](https://github.com/Xat01/AegisVault) | **SYSTEMS PROGRAMMING** | ✅ **MISSION COMPLETE** | C++20, OpenSSL 3, SHA-256, Argon2id | File vault with cryptographic integrity proofs. Constant-time ops. Zero external deps. Memory-safe C++. |
-| [**TASKFLOW API**](https://github.com/Xat01/TaskFlow-API) | **BACKEND ENGINEERING** | ✅ **MISSION COMPLETE** | Python, FastAPI, PostgreSQL, JWT, pytest | Clean REST API with RBAC, rate limiting, OpenAPI 3.1. 59/59 tests. Production patterns. |
-| [**AIRPORT NET**](https://github.com/Xat01/Airport-Network) | **NETWORK ENGINEERING** | ✅ **MISSION COMPLETE** | Cisco Packet Tracer, GNS3 | Enterprise campus: VLAN/HSRP/ACL/NAT/ASA/DMZ/STP. Redundant core. Full segmentation. |
+| OPERATION | CLASSIFICATION | STATUS | CORE TECH | RATIONALE |
+|-----------|----------------|--------|-----------|-----------|
+| [**MEMORA**](https://github.com/Xat01/MEMORA) | AI INFRASTRUCTURE | **OPERATIONAL** | Python, MCP, ChromaDB, Ollama, SQLite, Docker | AI agents lose context between sessions. MEMORA provides persistent, searchable memory. Hybrid BM25+vector retrieval. 165 tests passing. |
+| [**PULSESOC**](https://github.com/Xat01/PulseSOC) | SECURITY AUTOMATION | **OPERATIONAL** | Python, Asyncio, TCP, eBPF, JSON | Scan 254 hosts × 1000 ports in < 4 seconds. 79K ports/sec. SIEM-ready JSON. Modular probe architecture. |
+| [**VEYRON**](https://github.com/Xat01/VEYRON) | APPSEC PLATFORM | **IN DEVELOPMENT** | Python, FastAPI, React, Docker, Ollama, LangGraph | AppSec tools are fragmented. Veyron orchestrates SAST/DAST/IAST/SCA → AI triage → unified reports. Local-first, zero-cost. |
+| [**AEGISVAULT**](https://github.com/Xat01/AegisVault) | SYSTEMS PROGRAMMING | **COMPLETE** | C++20, OpenSSL 3, SHA-256, Argon2id | File vault with cryptographic integrity proofs. Constant-time operations. Zero external dependencies. Memory-safe C++. |
+| [**TASKFLOW API**](https://github.com/Xat01/TaskFlow-API) | BACKEND ENGINEERING | **COMPLETE** | Python, FastAPI, PostgreSQL, JWT, pytest | Clean REST API with RBAC, rate limiting, OpenAPI 3.1. 59/59 tests. Production patterns. |
+| [**AIRPORT NETWORK**](https://github.com/Xat01/Airport-Network) | NETWORK ENGINEERING | **COMPLETE** | Cisco Packet Tracer, GNS3 | Enterprise campus: VLAN/HSRP/ACL/NAT/ASA/DMZ/STP. Redundant core. Full segmentation. |
 
 </div>
 
 ---
 
-## 🧠 **MEMORA — THE ARCHITECTURE THAT MATTERS**
+## MEMORA — THE ARCHITECTURE THAT MATTERS
 
 <details>
 <summary><kbd>▶ EXPAND: How persistent memory for AI actually works</kbd></summary>
@@ -151,19 +151,19 @@ flowchart TB
     S4 -.->|/health/storage| MON
 ```
 
-### **THE DECISIONS THAT DEFINE THE SYSTEM**
+### THE DECISIONS THAT DEFINE THE SYSTEM
 
 | COMPONENT | DECISION | THE "WHY" — BENCHMARKED, NOT ASSUMED |
 |-----------|----------|--------------------------------------|
 | **Locking** | Cross-platform advisory (`msvcrt` + `fcntl`) via `asyncio.to_thread()` | No event loop blocking. Works Windows/Linux/macOS identically. |
-| **SQLite** | **NO WAL auto-enable** | Benchmarked on NVMe: WAL *hurts* random write latency. Opt-in only. |
+| **SQLite** | **NO WAL auto-enable** | Benchmarked on NVMe: WAL hurts random write latency. Opt-in only. |
 | **Ollama** | Profile selection via `OLLAMA_MODE` env + cross-validation | Prevents silent model mismatch. Explicit > implicit. |
 | **Retrieval** | Hybrid: BM25 (SQLite FTS5) + Vector (ChromaDB) | Keyword precision + semantic recall. Beats pure vector by 23% on eval. |
 | **Transports** | STDIO (local) + Streamable HTTP (remote) | MCP spec compliant. Session resumption. Works behind NAT. |
 | **Health** | 4 endpoints: live/ready/ollama/storage | K8s-ready. Liveness ≠ Readiness. Dependency isolation. |
 | **Docker** | Multi-stage. Non-root. Distroless runtime. `.env.docker` template. | Supply chain security. Reproducible. 47MB final image. |
 
-### **VERIFIED METRICS (NOT MARKETING)**
+### VERIFIED METRICS (NOT MARKETING)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -183,7 +183,7 @@ flowchart TB
 
 ---
 
-## ⚔️ **PULSESOC — 79,000 PORTS/SECOND**
+## PULSESOC — 79,000 PORTS/SECOND
 
 <details>
 <summary><kbd>▶ EXPAND: The async scanner core</kbd></summary>
@@ -240,7 +240,7 @@ class AsyncScanEngine:
         return b''
 ```
 
-### **REAL PERFORMANCE PROFILE**
+### REAL PERFORMANCE PROFILE
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -256,7 +256,7 @@ class AsyncScanEngine:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### **SIEM-READY JSON OUTPUT**
+### SIEM-READY JSON OUTPUT
 
 ```json
 {
@@ -291,7 +291,7 @@ class AsyncScanEngine:
 
 ---
 
-## 🏗️ **VEYRON — APPSEC ORCHESTRATOR (WIP)**
+## VEYRON — APPSEC ORCHESTRATOR (WIP)
 
 <details>
 <summary><kbd>▶ EXPAND: Architecture for unified AppSec</kbd></summary>
@@ -354,39 +354,39 @@ class AsyncScanEngine:
 
 ---
 
-## 📊 **LIVE TELEMETRY — NO CURATION**
+## LIVE TELEMETRY — NO CURATION
 
 <div align="center">
 
-### **COMMIT VELOCITY (LAST 365 DAYS)**
+### COMMIT VELOCITY (LAST 365 DAYS)
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Xat01&theme=github-dark&hide_border=true&area=true&color=00FF87&line=00FF87&point=FFFFFF&bg_color=0D1117" alt="Activity Graph" width="100%" />
 
-### **LANGUAGE BREAKDOWN & OVERALL STATS**
+### LANGUAGE BREAKDOWN & OVERALL STATS
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xat01&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FF87&text_color=E6EDF3&langs_count=12&custom_title=LANGUAGE%20BREAKDOWN" alt="Langs" width="49%" />
 <img src="https://github-readme-stats.vercel.app/api?username=Xat01&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FF87&text_color=E6EDF3&icon_color=00FF87&count_private=true&custom_title=GITHUB%20STATS" alt="Stats" width="49%" />
 
-### **STREAK DISCIPLINE**
+### STREAK DISCIPLINE
 <img src="https://streak-stats.demolab.com?user=Xat01&theme=github-dark&hide_border=true&background=0D1117&stroke=00FF87&ring=00FF87&fire=FF6B35&currStreakLabel=00FF87&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E" alt="Streak" width="100%" />
 
 </div>
 
 ---
 
-## 🎖️ **CREDENTIALS — VERIFIABLE**
+## CREDENTIALS — VERIFIABLE
 
 <div align="center">
 
 | CERTIFICATION | STATUS | AUTHORITY | FOCUS |
 |--------------|--------|-----------|-------|
-| **ISC2 Certified in Cybersecurity (CC)** | 🟡 **ACTIVE PURSUIT** | ISC2 | Security ops, incident response, network defense, cryptography |
-| **Cisco Junior Cybersecurity Analyst** | 🟡 **ACTIVE PURSUIT** | Cisco/NetAcad | SOC fundamentals, threat intelligence, network monitoring |
-| **Deloitte Cyber Job Simulation** | ✅ **COMPLETED** | Forage/Deloitte | Threat modeling, vulnerability assessment, client delivery |
+| **ISC2 Certified in Cybersecurity (CC)** | **ACTIVE PURSUIT** | ISC2 | Security ops, incident response, network defense, cryptography |
+| **Cisco Junior Cybersecurity Analyst** | **ACTIVE PURSUIT** | Cisco/NetAcad | SOC fundamentals, threat intelligence, network monitoring |
+| **Deloitte Cyber Job Simulation** | **COMPLETED** | Forage/Deloitte | Threat modeling, vulnerability assessment, client delivery |
 
 </div>
 
 ---
 
-## 🎯 **CURRENT MISSION PARAMETERS — WHAT I'M BUILDING TOWARD**
+## CURRENT MISSION PARAMETERS — WHAT I AM BUILDING TOWARD
 
 <div align="center">
 
@@ -412,52 +412,52 @@ timeline
 
 ---
 
-## 🔬 **RESEARCH ARTIFACTS — PUBLISHED & LINKED**
+## RESEARCH ARTIFACTS — PUBLISHED & LINKED
 
 <div align="center">
 
-| ARTIFACT | DOMAIN | REPO | STATUS |
-|----------|--------|------|--------|
-| **Cross-Platform Advisory Locking** | Systems | [MEMORA](https://github.com/Xat01/MEMORA/blob/main/docs/locking.md) | 📄 Published |
-| **Hybrid Retrieval for RAG** | AI/IR | [MEMORA](https://github.com/Xat01/MEMORA/blob/main/docs/retrieval.md) | 📄 Published |
-| **Async Network Scanning Patterns** | NetSec | [PulseSOC](https://github.com/Xat01/PulseSOC/blob/main/docs/async-patterns.md) | 📄 Published |
-| **eBPF/XDP Packet Processing** | Kernel | Private | 🔒 Internal |
-| **Memory Safety in C++20** | Systems | [AegisVault](https://github.com/Xat01/AegisVault/blob/main/docs/memory-safety.md) | 📄 Published |
+| ARTIFACT | DOMAIN | REPOSITORY | STATUS |
+|----------|--------|------------|--------|
+| **Cross-Platform Advisory Locking** | Systems | [MEMORA](https://github.com/Xat01/MEMORA/blob/main/docs/locking.md) | Published |
+| **Hybrid Retrieval for RAG** | AI/IR | [MEMORA](https://github.com/Xat01/MEMORA/blob/main/docs/retrieval.md) | Published |
+| **Async Network Scanning Patterns** | NetSec | [PulseSOC](https://github.com/Xat01/PulseSOC/blob/main/docs/async-patterns.md) | Published |
+| **eBPF/XDP Packet Processing** | Kernel | Private | Internal |
+| **Memory Safety in C++20** | Systems | [AegisVault](https://github.com/Xat01/AegisVault/blob/main/docs/memory-safety.md) | Published |
 
 </div>
 
 ---
 
-## 🤝 **RECRUITING OPERATORS — WHO I WANT TO BUILD WITH**
+## RECRUITING OPERATORS — WHO I WANT TO BUILD WITH
 
 <div align="center">
 
-| ROLE | MISSION PROFILE | SIGNAL |
-|------|-----------------|--------|
-| **Security Researcher** | Vuln research, exploit dev, fuzzing, reverse engineering | [DM](https://github.com/Xat01) |
-| **AI/ML Engineer** | RAG, agents, MCP, eval frameworks, model optimization | [DM](https://github.com/Xat01) |
+| ROLE | MISSION PROFILE | CONTACT |
+|------|-----------------|---------|
+| **Security Researcher** | Vulnerability research, exploit development, fuzzing, reverse engineering | [DM](https://github.com/Xat01) |
+| **AI/ML Engineer** | RAG, agents, MCP, evaluation frameworks, model optimization | [DM](https://github.com/Xat01) |
 | **Backend/Platform Engineer** | High-throughput systems, distributed systems, observability | [DM](https://github.com/Xat01) |
 | **Network Engineer** | Protocol design, eBPF/XDP, DPDK, network automation | [DM](https://github.com/Xat01) |
-| **Open Source Maintainer** | Security tooling, dev infra, CLI frameworks | [DM](https://github.com/Xat01) |
+| **Open Source Maintainer** | Security tooling, developer infrastructure, CLI frameworks | [DM](https://github.com/Xat01) |
 
 </div>
 
 ---
 
-## 📡 **ENCRYPTED CHANNELS**
+## ENCRYPTED CHANNELS
 
 <div align="center">
 
-[![ENCRYPTED EMAIL](https://img.shields.io/badge/📧_EMAIL-avunoori.srivatsa0123%40gmail.com-EA4335?style=for-the-badge&logo=protonmail&logoColor=00FF87&labelColor=0D1117)](mailto:avunoori.srivatsa0123@gmail.com)
-[![SECURE LINKEDIN](https://img.shields.io/badge/💼_LINKEDIN-Srivatsa_Avunoori-0A66C2?style=for-the-badge&logo=linkedin&logoColor=00FF87&labelColor=0D1117)](https://linkedin.com/in/srivatsa-avunoori-b6a605353)
-[![GITHUB COMMAND](https://img.shields.io/badge/🐙_GITHUB-@Xat01-181717?style=for-the-badge&logo=github&logoColor=00FF87&labelColor=0D1117)](https://github.com/Xat01)
-[![PORTFOLIO ENDPOINT](https://img.shields.io/badge/🌐_ENDPOINT-xat01.github.io-00FF87?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=0D1117)](https://xat01.github.io)
+[![ENCRYPTED EMAIL](https://img.shields.io/badge/EMAIL-avunoori.srivatsa0123%40gmail.com-EA4335?style=for-the-badge&logo=protonmail&logoColor=00FF87&labelColor=0D1117)](mailto:avunoori.srivatsa0123@gmail.com)
+[![SECURE LINKEDIN](https://img.shields.io/badge/LINKEDIN-Srivatsa_Avunoori-0A66C2?style=for-the-badge&logo=linkedin&logoColor=00FF87&labelColor=0D1117)](https://linkedin.com/in/srivatsa-avunoori-b6a605353)
+[![GITHUB](https://img.shields.io/badge/GITHUB-@Xat01-181717?style=for-the-badge&logo=github&logoColor=00FF87&labelColor=0D1117)](https://github.com/Xat01)
+[![PORTFOLIO](https://img.shields.io/badge/PORTFOLIO-xat01.github.io-00FF87?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=0D1117)](https://xat01.github.io)
 
 </div>
 
 ---
 
-## 💀 **PHILOSOPHY — COMPILED INTO EVERY BINARY**
+## PHILOSOPHY — COMPILED INTO EVERY BINARY
 
 <div align="center">
 
@@ -483,7 +483,7 @@ timeline
 
 ---
 
-**⭐ STAR** the repos that save you time • **🍴 FORK** to experiment • **🐛 ISSUE** for bugs • **💡 DISCUSS** for architecture
+STAR the repos that save you time • FORK to experiment • ISSUE for bugs • DISCUSS for architecture
 
 ---
 
@@ -522,12 +522,12 @@ timeline
   - TEXT:      #E6EDF3 (Primary) / #8B949E (Secondary)
   
   THIS PROFILE HOOKS BECAUSE:
-  ✅ Opens with a boot sequence (not a name)
-  ✅ Leads with "why this exists" (not "who I am")
-  ✅ Shows systems with verified metrics (not keyword lists)
-  ✅ Expandable deep-dives with real code + architecture + decisions
-  ✅ Live telemetry that updates automatically
-  ✅ Philosophy as C macros (not platitudes)
-  ✅ Every claim links to verifiable source
-  ✅ Voice: "Operations", "Missions", "Intel" — not "Projects", "About", "Contact"
+  - Opens with a boot sequence (not a name)
+  - Leads with "why this exists" (not "who I am")
+  - Shows systems with verified metrics (not keyword lists)
+  - Expandable deep-dives with real code + architecture + decisions
+  - Live telemetry that updates automatically
+  - Philosophy as C macros (not platitudes)
+  - Every claim links to verifiable source
+  - Voice: "Operations", "Missions", "Intel" — not "Projects", "About", "Contact"
 -->
