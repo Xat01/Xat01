@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" width="1440" height="400">
+  <defs>
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FF87" stroke-width="0.5" opacity="0.15"/>
+    </pattern>
+
+    <!-- Scanline overlay -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.1"/>
+    </pattern>
+
+    <!-- Glow filters -->
+    <filter id="glow-green" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-intense" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="text-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Gradient definitions -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF87"/>
+      <stop offset="50%" stop-color="#00D4AA"/>
+      <stop offset="100%" stop-color="#00FF87"/>
+    </linearGradient>
+
+    <linearGradient id="purple-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF87" stop-opacity="0.15"/>
+      <stop offset="70%" stop-color="#00FF87" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00FF87" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Animation keyframes -->
+    <style type="text/css"><![CDATA[
+      @keyframes scanline-move {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(400px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+      @keyframes typewriter {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes slide-up {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes rotate-slow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes data-stream {
+        0% { transform: translateY(-200px); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateY(400px); opacity: 0; }
+      }
+      @keyframes radar-sweep {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .scanline-overlay {
+        animation: scanline-move 8s linear infinite;
+      }
+      .pulse-glow {
+        animation: pulse 2s ease-in-out infinite;
+      }
+      .blink-cursor {
+        animation: blink 1s step-end infinite;
+      }
+      .slide-up {
+        animation: slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        opacity: 0;
+      }
+      .float {
+        animation: float 3s ease-in-out infinite;
+      }
+      .rotate-slow {
+        animation: rotate-slow 20s linear infinite;
+        transform-origin: center;
+      }
+      .data-stream {
+        animation: data-stream 3s linear infinite;
+      }
+      .radar-sweep {
+        animation: radar-sweep 4s linear infinite;
+        transform-origin: center bottom;
+      }
+
+      /* Staggered entrance delays */
+      .delay-1 { animation-delay: 0.1s; }
+      .delay-2 { animation-delay: 0.2s; }
+      .delay-3 { animation-delay: 0.3s; }
+      .delay-4 { animation-delay: 0.4s; }
+      .delay-5 { animation-delay: 0.5s; }
+      .delay-6 { animation-delay: 0.6s; }
+      .delay-7 { animation-delay: 0.7s; }
+      .delay-8 { animation-delay: 0.8s; }
+
+      /* Data stream delays */
+      .stream-1 { animation-delay: 0s; }
+      .stream-2 { animation-delay: 0.5s; }
+      .stream-3 { animation-delay: 1s; }
+      .stream-4 { animation-delay: 1.5s; }
+      .stream-5 { animation-delay: 2s; }
+      .stream-6 { animation-delay: 2.5s; }
+    ]]></style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1440" height="400" fill="url(#bg-gradient)"/>
+
+  <!-- Center radial glow -->
+  <ellipse cx="720" cy="200" rx="600" ry="250" fill="url(#center-glow)"/>
+
+  <!-- Grid background -->
+  <rect width="1440" height="400" fill="url(#grid)"/>
+
+  <!-- Scanline overlay -->
+  <rect class="scanline-overlay" width="1440" height="400" fill="url(#scanlines)" pointer-events="none"/>
+
+  <!-- Top accent line -->
+  <line x1="0" y1="0" x2="1440" y2="0" stroke="url(#accent-gradient)" stroke-width="2" opacity="0.8"/>
+
+  <!-- Left panel - System info -->
+  <g class="slide-up delay-1" transform="translate(60, 60)">
+    <!-- Terminal header -->
+    <rect x="0" y="0" width="380" height="36" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+    <circle cx="16" cy="18" r="6" fill="#FF5F57"/>
+    <circle cx="38" cy="18" r="6" fill="#FFBD2E"/>
+    <circle cx="60" cy="18" r="6" fill="#28CA42"/>
+    <text x="190" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8B949E">xat01@mission-control:~$</text>
+
+    <!-- System readout -->
+    <g transform="translate(0, 50)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00FF87" font-weight="700">SYSTEM SPECS</text>
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#30363D">━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+      <g font-family="'JetBrains Mono', monospace" font-size="10" fill="#E6EDF3">
+        <text x="0" y="42"><tspan fill="#00FF87">▸</tspan> HOST: <tspan fill="#8A2BE2">XAT01-MISSION-CONTROL</tspan></text>
+        <text x="0" y="60"><tspan fill="#00FF87">▸</tspan> KERNEL: <tspan fill="#FF6B35">6.8.0-custom</tspan></text>
+        <text x="0" y="78"><tspan fill="#00FF87">▸</tspan> UPTIME: <tspan fill="#00D4AA" id="uptime">4Y 237D 14H 32M</tspan></text>
+        <text x="0" y="96"><tspan fill="#00FF87">▸</tspan> LOAD: <tspan fill="#FFBD2E" id="load">[0.23, 0.41, 0.38]</tspan></text>
+        <text x="0" y="114"><tspan fill="#00FF87">▸</tspan> MEM: <tspan fill="#00FF87">32.4G</tspan> / 64G</text>
+        <text x="0" y="132"><tspan fill="#00FF87">▸</tspan> GPU: <tspan fill="#8A2BE2">RTX 4090 (24GB)</tspan></text>
+        <text x="0" y="150"><tspan fill="#00FF87">▸</tspan> NET: <tspan fill="#00D4AA">10Gbps Fiber</tspan></text>
+      </g>
+    </g>
+
+    <!-- Active processes -->
+    <g transform="translate(0, 200)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00FF87" font-weight="700">ACTIVE OPERATIONS</text>
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#30363D">━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+      <g font-family="'JetBrains Mono', monospace" font-size="10">
+        <text x="0" y="42"><tspan fill="#00FF87">●</tspan> <tspan fill="#E6EDF3">MEMORA</tspan> <tspan fill="#00FF87">MCP Server</tspan> <tspan fill="#30363D">░░░░░░░░░░</tspan> <tspan fill="#28CA42">RUNNING</tspan></text>
+        <text x="0" y="60"><text x="0" y="60"><tspan fill="#00FF87">●</tspan> <tspan fill="#E6EDF3">PULSESOC</tspan> <tspan fill="#FF6B35">Async Scanner</tspan> <tspan fill="#30363D">░░░░░░░░░░</tspan> <tspan fill="#28CA42">RUNNING</tspan></text>
+        <text x="0" y="78"><tspan fill="#FFBD2E">●</tspan> <tspan fill="#E6EDF3">VEYRON</tspan> <tspan fill="#8A2BE2">AppSec Orchestrator</tspan> <tspan fill="#30363D">████████░░</tspan> <tspan fill="#FFBD2E">BUILDING</tspan></text>
+        <text x="0" y="96"><tspan fill="#28CA42">●</tspan> <tspan fill="#E6EDF3">AEGISVAULT</tspan> <tspan fill="#00D4AA">Crypto Vault</tspan> <tspan fill="#30363D">██████████</tspan> <tspan fill="#28CA42">COMPLETE</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Center - Main identity -->
+  <g class="slide-up delay-2" transform="translate(720, 140)" text-anchor="middle">
+    <!-- Radar sweep -->
+    <g class="radar-sweep" transform="translate(0, -20)">
+      <ellipse cx="0" cy="0" rx="120" ry="60" fill="none" stroke="#00FF87" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+      <ellipse cx="0" cy="0" rx="80" ry="40" fill="none" stroke="#00FF87" stroke-width="1" stroke-dasharray="6,6" opacity="0.2"/>
+      <path d="M0,-60 L0,0" stroke="url(#accent-gradient)" stroke-width="2" filter="url(#glow-green)"/>
+    </g>
+
+    <!-- Central hexagon -->
+    <g class="float rotate-slow">
+      <polygon points="0,-70 60.6,-35 60.6,35 0,70 -60.6,35 -60.6,-35"
+               fill="none" stroke="url(#accent-gradient)" stroke-width="3" filter="url(#glow-intense)"/>
+      <polygon points="0,-55 48.1,-28 48.1,28 0,55 -48.1,28 -48.1,-28"
+               fill="url(#accent-gradient)" opacity="0.15"/>
+    </g>
+
+    <!-- Handle -->
+    <text x="0" y="-10" font-family="'JetBrains Mono', monospace" font-size="36" font-weight="800" fill="#00FF87" filter="url(#text-glow)">
+      XAT01
+    </text>
+
+    <!-- Subtitle with typewriter effect -->
+    <g transform="translate(0, 30)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="14" fill="#E6EDF3" letter-spacing="4">
+        <tspan class="blink-cursor" id="cursor">|</tspan>
+      </text>
+    </g>
+
+    <!-- Role tags -->
+    <g transform="translate(0, 60)" font-family="'JetBrains Mono', monospace" font-size="10">
+      <text x="-140" y="0" fill="#00FF87">[</text>
+      <text x="-130" y="0" fill="#E6EDF3">CYBERSECURITY ENGINEER</text>
+      <text x="20" y="0" fill="#00FF87">]</text>
+
+      <text x="40" y="0" fill="#00FF87">[</text>
+      <text x="50" y="0" fill="#E6EDF3">AI INFRASTRUCTURE ARCHITECT</text>
+      <text x="220" y="0" fill="#00FF87">]</text>
+
+      <text x="240" y="0" fill="#00FF87">[</text>
+      <text x="250" y="0" fill="#E6EDF3">SYSTEMS PROGRAMMER</text>
+      <text x="380" y="0" fill="#00FF87">]</text>
+    </g>
+
+    <!-- Clearance badges -->
+    <g transform="translate(0, 90)">
+      <rect x="-150" y="-12" width="90" height="24" rx="12" fill="#0D1117" stroke="#00FF87" stroke-width="1" opacity="0.8"/>
+      <text x="-105" y="2" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00FF87" font-weight="700">BUILDER</text>
+
+      <rect x="-40" y="-12" width="80" height="24" rx="12" fill="#0D1117" stroke="#FF6B35" stroke-width="1" opacity="0.8"/>
+      <text x="0" y="2" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FF6B35" font-weight="700">BREAKER</text>
+
+      <rect x="60" y="-12" width="90" height="24" rx="12" fill="#0D1117" stroke="#00D4AA" stroke-width="1" opacity="0.8"/>
+      <text x="105" y="2" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00D4AA" font-weight="700">DEFENDER</text>
+    </g>
+  </g>
+
+  <!-- Right panel - Live metrics -->
+  <g class="slide-up delay-3" transform="translate(1000, 60)">
+    <!-- Terminal header -->
+    <rect x="0" y="0" width="380" height="36" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+    <circle cx="16" cy="18" r="6" fill="#FF5F57"/>
+    <circle cx="38" cy="18" r="6" fill="#FFBD2E"/>
+    <circle cx="60" cy="18" r="6" fill="#28CA42"/>
+    <text x="190" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8B949E">TELEMETRY █ LIVE</text>
+
+    <!-- Metrics cards -->
+    <g transform="translate(0, 50)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="180" height="80" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" class="pulse-glow"/>
+      <text x="12" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">PORTS/SEC</text>
+      <text x="12" y="52" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#00FF87" filter="url(#text-glow)">79.3K</text>
+      <text x="12" y="70" font-family="'JetBrains Mono', monospace" font-size="8" fill="#28CA42">PEAK THROUGHPUT</text>
+
+      <!-- Card 2 -->
+      <rect x="200" y="0" width="180" height="80" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" class="pulse-glow delay-1"/>
+      <text x="212" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">TEST COVERAGE</text>
+      <text x="212" y="52" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#00D4AA" filter="url(#text-glow)">94.2%</text>
+      <text x="212" y="70" font-family="'JetBrains Mono', monospace" font-size="8" fill="#28CA42">LINE / 89.7% BRANCH</text>
+
+      <!-- Card 3 -->
+      <rect x="0" y="95" width="180" height="80" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" class="pulse-glow delay-2"/>
+      <text x="12" y="117" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">LATENCY P99</text>
+      <text x="12" y="147" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#8A2BE2" filter="url(#text-glow)"><45MS</text>
+      <text x="12" y="165" font-family="'JetBrains Mono', monospace" font-size="8" fill="#28CA42">LOCAL EMBEDDINGS</text>
+
+      <!-- Card 4 -->
+      <rect x="200" y="95" width="180" height="80" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" class="pulse-glow delay-3"/>
+      <text x="212" y="117" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">DOCKER IMAGE</text>
+      <text x="212" y="147" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#FF6B35" filter="url(#text-glow)">47MB</text>
+      <text x="212" y="165" font-family="'JetBrains Mono', monospace" font-size="8" fill="#28CA42">DISTROLESS RUNTIME</text>
+
+      <!-- Card 5 -->
+      <rect x="0" y="190" width="180" height="80" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" class="pulse-glow delay-4"/>
+      <text x="12" y="212" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">ACTIVE REPOS</text>
+      <text x="12" y="242" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#FFBD2E" filter="url(#text-glow)" id="repo-count">6</text>
+      <text x="12" y="260" font-family="'JetBrains Mono', monospace" font-size="8" fill="#28CA42">OPERATIONAL</text>
+
+      <!-- Card 6 -->
+      <rect x="200" y="190" width="180" height="80" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" class="pulse-glow delay-5"/>
+      <text x="212" y="212" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">CERT PURSUIT</text>
+      <text x="212" y="242" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#00D4AA" filter="url(#text-glow)">2</text>
+      <text x="212" y="260" font-family="'JetBrains Mono', monospace" font-size="8" fill="#28CA42">ISC2 CC + CISCO JCA</text>
+    </g>
+
+    <!-- Data stream visualization -->
+    <g transform="translate(0, 290)" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00FF87" opacity="0.6">
+      <text x="0" y="0">INCOMING DATA STREAMS</text>
+      <g transform="translate(0, 20)">
+        <text class="data-stream stream-1" x="0" y="0">► MEMORA: 1,247 vectors indexed...</text>
+        <text class="data-stream stream-2" x="0" y="16">► PULSESOC: 254 hosts scanned...</text>
+        <text class="data-stream stream-3" x="0" y="32">► VEYRON: 47 findings triaged...</text>
+        <text class="data-stream stream-4" x="0" y="48">► AEGISVAULT: 0 integrity violations...</text>
+        <text class="data-stream stream-5" x="0" y="64">► GITHUB: 23 commits this week...</text>
+        <text class="data-stream stream-6" x="0" y="80">► LAB: k3s cluster healthy...</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom status bar -->
+  <g transform="translate(0, 370)">
+    <rect width="1440" height="30" fill="#030712" opacity="0.9"/>
+    <line x1="0" y1="0" x2="1440" y2="0" stroke="#30363D" stroke-width="1"/>
+
+    <text x="30" y="20" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">
+      STATUS: <tspan fill="#00FF87">● OPERATIONAL</tspan>  |  LOCATION: <tspan fill="#00D4AA">DUBAI, UAE</tspan>  |  TZ: <tspan fill="#8A2BE2">GST (UTC+4)</tspan>  |  LAST DEPLOY: <tspan fill="#FFBD2E">2026-01-15 14:23:12Z</tspan>
+    </text>
+
+    <text x="1200" y="20" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">
+      <tspan fill="#00FF87">█</tspan> SECURE  <tspan fill="#00D4AA">█</tspan> ENCRYPTED  <tspan fill="#8A2BE2">█</tspan> AIR-GAPPED  <tspan fill="#FF6B35">█</tspan> MONITORED
+    </text>
+  </g>
+
+  <!-- Corner decorations -->
+  <!-- Top-left corner brackets -->
+  <g stroke="#00FF87" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M30,30 L30,60 L60,60"/>
+    <path d="M1410,30 L1410,60 L1380,60"/>
+    <path d="M30,370 L30,340 L60,340"/>
+    <path d="M1410,370 L1410,340 L1380,340"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g opacity="0.4">
+    <circle cx="150" cy="100" r="1.5" fill="#00FF87" class="float" style="animation-delay: 0s; animation-duration: 4s;"/>
+    <circle cx="300" cy="50" r="1" fill="#00D4AA" class="float" style="animation-delay: 1s; animation-duration: 3.5s;"/>
+    <circle cx="500" cy="120" r="1.5" fill="#8A2BE2" class="float" style="animation-delay: 0.5s; animation-duration: 4.5s;"/>
+    <circle cx="900" cy="80" r="1" fill="#FF6B35" class="float" style="animation-delay: 1.5s; animation-duration: 3s;"/>
+    <circle cx="1100" cy="150" r="1.5" fill="#00FF87" class="float" style="animation-delay: 0.8s; animation-duration: 4s;"/>
+    <circle cx="1300" cy="60" r="1" fill="#00D4AA" class="float" style="animation-delay: 2s; animation-duration: 3.5s;"/>
+    <circle cx="200" cy="280" r="1.5" fill="#8A2BE2" class="float" style="animation-delay: 1.2s; animation-duration: 4.5s;"/>
+    <circle cx="600" cy="320" r="1" fill="#FFBD2E" class="float" style="animation-delay: 0.3s; animation-duration: 3s;"/>
+    <circle cx="1000" cy="290" r="1.5" fill="#00FF87" class="float" style="animation-delay: 1.8s; animation-duration: 4s;"/>
+    <circle cx="1250" cy="310" r="1" fill="#00D4AA" class="float" style="animation-delay: 2.2s; animation-duration: 3.5s;"/>
+  </g>
+</svg>

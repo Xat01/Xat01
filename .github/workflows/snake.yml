@@ -1,0 +1,49 @@
+name: Snake Animation
+
+on:
+  schedule:
+    # Runs every day at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Xat01
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=00ff87&color_dots=00d4aa,8a2be2,ff6b35,ffbd2e
+            dist/ocean-dark.gif?palette=github-dark&color_snake=00ff87&color_dots=00d4aa,8a2be2,ff6b35,ffbd2e
+
+      - name: Upload snake artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+          name: snake-animation
+
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: snake-animation
