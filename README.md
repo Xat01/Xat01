@@ -30,15 +30,7 @@
 
 ---
 
-## 🎬 **THE HOOK — WHY THIS PROFILE EXISTS**
 
-> **Most GitHub profiles are resumes. This one is a runtime.**
->
-> I don't list technologies — I show you systems I've built that *actually run in production*.
-> I don't claim skills — I link you to the code that proves them.
-> I don't want you to *read* this. I want you to *explore* it.
-
-**Three things you'll find here that you won't find on 99% of profiles:**
 
 | # | What It Is | Why It Matters |
 |---|------------|----------------|
