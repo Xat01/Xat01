@@ -1,148 +1,61 @@
-# 👋 Hi, I'm Srivatsa Avunoori
+v<div align="center">
 
-### Computer Science @ University of Wollongong in Dubai
-### Cybersecurity • Software Engineering • Enterprise Networking
+# Hi, I'm Srivatsa Avunoori
 
----
+### Cybersecurity Engineer | AI Infrastructure | Software Development
 
-## 🚀 About Me
+**Computer Science @ University of Wollongong in Dubai**
 
-I'm a Computer Science student specializing in Cybersecurity with a passion for building secure software, enterprise network infrastructures, and automation tools.
+[![GitHub](https://img.shields.io/badge/GitHub-Xat01-181717?style=for-the-badge&logo=github)](https://github.com/Xat01)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/srivatsa-avunoori-b6a605353)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:avunoori.srivatsa0123@gmail.com)
 
-I enjoy learning by building real-world projects that combine networking, software engineering, and security.
+*"Build consistently. Learn continuously. Secure by design."*
 
----
-
-## 🎯 Current Focus
-
-- 🛡️ Security Engineering
-- 🐍 Python Development
-- ⚙️ Modern C++
-- 🌐 Enterprise Networking
-- 🐧 Linux
-- ☁️ Cloud Security
-- 📊 Detection Engineering
+</div>
 
 ---
 
-# 🛠 Tech Stack
+## `$ whoami`
 
-### Programming
+I'm a Computer Science student specializing in Cybersecurity at the University of Wollongong in Dubai.
 
-![Python](https://skillicons.dev/icons?i=py)
-![C++](https://skillicons.dev/icons?i=cpp)
-![JavaScript](https://skillicons.dev/icons?i=js)
-![HTML](https://skillicons.dev/icons?i=html)
-![CSS](https://skillicons.dev/icons?i=css)
+My interests lie at the intersection of **cybersecurity, software engineering, AI infrastructure, and enterprise networking**.
 
----
+I enjoy understanding how systems work internally, identifying architectural weaknesses, and building solutions that address real-world engineering problems.
 
-### Cybersecurity & Networking
-
-![Linux](https://skillicons.dev/icons?i=linux)
-![Git](https://skillicons.dev/icons?i=git)
-![GitHub](https://skillicons.dev/icons?i=github)
+Rather than limiting myself to one domain, I explore how different technologies come together to create reliable, secure, and scalable systems.
 
 ---
 
-# 🚀 Featured Projects
+## Current Focus
 
-## 🛡 PulseSOC
-
-Python-based asynchronous security scanner.
-
-**Highlights**
-
-- Async Port Scanner
-- Banner Grabbing
-- JSON Reporting
-- Modular Architecture
-- Service Detection
+| Domain | Areas of Interest |
+|---|---|
+| Security Engineering | Security automation, vulnerability assessment, detection engineering |
+| AI Infrastructure | RAG, vector databases, embeddings, MCP, local LLMs |
+| Software Development | Python, asynchronous programming, REST APIs |
+| Systems Programming | Modern C++, OOP, memory management |
+| Networking | Enterprise networking, network security, infrastructure |
+| Infrastructure | Docker, Linux, cloud security |
 
 ---
 
-## 🌐 Enterprise Airport Network
+# Featured Projects
 
-Enterprise Cisco Packet Tracer project.
+### MEMORA — Persistent Memory Infrastructure for AI
 
-Features
+**AI Infrastructure | Python | MCP | RAG | SQLite | ChromaDB | Ollama**
 
-- VLANs
-- Layer-3 Switching
-- HSRP
-- ACLs
-- NAT
-- STP
-- ASA Firewall
-- DMZ
+An experimental persistent-memory infrastructure designed to give AI applications and agents access to structured, searchable, and reusable knowledge across sessions.
 
----
+**Key Engineering Areas**
 
-## 🌍 Roamify
-
-Modern travel booking web application.
-
-Features
-
-- Responsive Design
-- Dynamic JSON Data
-- Booking System
-- Modern UI
-
----
-
-# 📚 Currently Learning
-
+- Modular Python architecture.
+- Hybrid knowledge retrieval.
+- SQLite and FTS5-based storage and search.
+- ChromaDB vector storage.
+- Local embedding generation using Ollama.
+- Model Context Protocol (MCP) integration.
+- STDIO and Streamable HTTP transports.
 - Docker
-- Active Directory
-- Cloud Security
-- Detection Engineering
-- Security Automation
-
----
-
-# 🎯 Goals
-
-- [ ] Complete ISC2 Certified in Cybersecurity (CC)
-- [ ] Expand PulseSOC
-- [ ] Publish technical write-ups
-- [ ] Contribute to Open Source
-- [ ] Learn AWS
-
----
-
-# 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Xat01&show_icons=true&theme=github_dark&hide_border=true)
-
----
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Xat01&layout=compact&theme=github_dark&hide_border=true)
-
----
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Xat01&theme=github-dark&hide_border=true)
-
----
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Xat01&theme=github-dark)
-
----
-
-# 🏆 Certifications
-
-- ISC2 Certified in Cybersecurity *(In Progress)*
-- Cisco Junior Cybersecurity Analyst Career Path *(In Progress)*
-- Deloitte Cyber Job Simulation (Forage)
-
----
-
-# 📫 Connect
-
-- 📧 Email: avunoori.srivatsa0123@gmail.com
-- 💼 LinkedIn: https://linkedin.com/in/srivatsa-avunoori-b6a605353
-- 💻 GitHub: https://github.com/Xat01
-
----
-
-> *"Build consistently. Learn continuously. Secure by design."*
