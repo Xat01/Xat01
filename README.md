@@ -30,23 +30,6 @@
 
 ---
 
-## THE HOOK — WHY THIS PROFILE EXISTS
-
-> **Most GitHub profiles are resumes. This one is a runtime.**
->
-> I do not list technologies — I show you systems that run in production.
-> I do not claim skills — I link you to the code that proves them.
-> I do not want you to read this. I want you to explore it.
-
-**Three things you will find here that you will not find on 99% of profiles:**
-
-| # | What It Is | Why It Matters |
-|---|------------|----------------|
-| **1** | **Production-grade systems** — MEMORA (AI memory infrastructure), PulseSOC (async reconnaissance), Veyron (AppSec orchestrator) | These are not tutorials. They solve real problems. |
-| **2** | **Engineering decisions, not buzzwords** — Why SQLite over PostgreSQL. Why no WAL. Why hybrid BM25+vector. | Shows how I think, not what I know. |
-| **3** | **Live telemetry** — Real test counts, latency numbers, throughput benchmarks | Verifiable. Reproducible. No fluff. |
-
----
 
 ## SYSTEM SPECIFICATIONS — MACHINE READABLE
 
@@ -61,8 +44,8 @@ IDENTITY:
   uptime: "4 years, 237 days of shipping code"
 
 HARDWARE:
-  daily_driver: "Custom AMD Ryzen 9 7950X / 64GB DDR5-5600 / RTX 4090"
-  mobile: "MacBook Pro M3 Max / 64GB / 2TB"
+  daily_driver: "Intel i7 - 14th gen / 16GB DDR4-3200 / intel irisX"
+  mobile: "Wndows 11 pro / 16GB / 1TB"
   lab: "3-node k3s cluster (Proxmox) + 24-bay NAS (TrueNAS Scale)"
   network: "Ubiquiti Dream Machine Pro + USW-Enterprise-48-PoE"
 
